@@ -6,10 +6,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
+import com.expancetracker.expancetracker.Dao.ProductDao;
 import com.expancetracker.expancetracker.model.Product;
 import com.expancetracker.expancetracker.model.User;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class ProductController {

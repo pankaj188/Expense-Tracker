@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.expancetracker.expancetracker.Dao.ProductDao;
+import com.expancetracker.expancetracker.Dao.UserDao;
 import com.expancetracker.expancetracker.model.User;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class UserController {
