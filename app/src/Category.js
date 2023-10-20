@@ -21,9 +21,7 @@ class Category extends Component {
             console.error('Error fetching data:', error);
             this.setState({ isLoading: false });
           }
-        //  const response = await fetch('/api/categories');
-        //  const body = await response.json();
-        //  this.setState({Categories : body, isLoading : false});
+          
      }
 
     render() { 

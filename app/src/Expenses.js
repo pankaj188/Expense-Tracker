@@ -95,13 +95,6 @@ class Expenses extends Component {
             this.setState({ isLoading: false });
           }
 
-        // const response = await fetch('/api/categories');
-        // const body = await response.json();
-        // this.setState({Categories : body, isLoading : false});
-
-        // const responseExp = await fetch('/api/expenses');
-        // const bodyExp = await responseExp.json();
-        // this.setState({Expenses : bodyExp, isLoading : false});
      }
 
     render() { 
