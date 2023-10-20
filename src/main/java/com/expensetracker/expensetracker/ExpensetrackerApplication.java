@@ -1,13 +1,13 @@
-package com.expancetracker.expancetracker;
+package com.expensetracker.expensetracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExpancetrackerApplication {
+public class ExpensetrackerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExpancetrackerApplication.class, args);
+		SpringApplication.run(ExpensetrackerApplication.class, args);
 	}
 
 }
